@@ -8,14 +8,14 @@
 </head>
 <body>
     <h1>License Plate Game</h1>
-    <!-- <select id="stateDropdown" onchange="updateCount()">
-        <option value="" disabled selected>Select a state</option> -->
+     <!-- <select id="stateDropdown" onchange="updateCount()">
+        <option value="" disabled selected>Select a state</option>  -->
         <!-- <form autocomplete="off" action="/action_page.php">
   
                 <input type="text" onclick = autocomplete()> -->
                 <form autocomplete="off" action="/action_page.php">
                     <div class="autocomplete" style="width:300px;">
-                      <input id="myInput" type="text" name="myCountry" placeholder="Enter State">
+                      <input id="myInput" onchange="updateCount()" type="text" name="myCountry" placeholder="Enter State">
                     </div>
                     <input type="submit">
                   </form>
